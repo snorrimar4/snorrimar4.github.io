@@ -16,6 +16,7 @@ body {
     padding: 1em;
 }
 .beige{
+    background-image: url(/Verkefni-7/img/bakgrunnur.jpeg);
     background-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
     padding: 1em 1em;
@@ -175,6 +176,15 @@ body {
         border-right: 0;
     }
 }
+
+@media screen and (min-width: 37.5em){
+    .col-2{
+        display: grid;
+        grid-auto-columns: 1fr;
+    }
+
+}
+
 @media screen and (min-width: 48em){
 
     .col-3 {
