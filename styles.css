@@ -16,7 +16,7 @@ body {
     padding: 1em;
 }
 .beige{
-    background-image: url(/Verkefni-7/img/bakgrunnur.jpeg);
+    background-image: url(/img/bakgrunnur.jpeg);
     background-color: rgb(102, 102, 102);
     color: rgb(255, 255, 255);
     padding: 1em 1em;
@@ -188,6 +188,10 @@ body {
             width: 450px;
             height: 250px;
     }
+    .map{
+        width: 250px;
+        height: 250px;
+    }
 
 }
 
@@ -209,6 +213,10 @@ body {
         height: 300px;
         width: 500px;
     }
+    .map{
+        width: 300px;
+        height: 300px;
+    }
 }
 @media screen and (min-width: 60em) {
     .content {
@@ -227,5 +235,9 @@ body {
     .center{
         display: block;
         margin-left: 14em;
+    }
+    .map{
+        width: 300px;
+        height: 300px;
     }
 }
